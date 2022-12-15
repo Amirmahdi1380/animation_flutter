@@ -17,10 +17,8 @@ class _OpacityAnimationState extends State<OpacityAnimation> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             AnimatedOpacity(
-              onEnd: () {
-                print('onEnd');
-              },
-              duration: Duration(seconds: 1),
+              onEnd: () {},
+              duration: const Duration(seconds: 1),
               opacity: isChange,
               child: Container(
                 height: 100,
@@ -30,7 +28,6 @@ class _OpacityAnimationState extends State<OpacityAnimation> {
             ),
             ElevatedButton(
               onPressed: () {
-                // print('object');
                 setState(() {
                   if (isChange == 1) {
                     isChange = 0;

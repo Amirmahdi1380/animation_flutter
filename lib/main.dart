@@ -1,4 +1,5 @@
 import 'package:animated/opacity_animation.dart';
+import 'package:animated/position_animated.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +12,7 @@ class MainScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: OpacityAnimation(),
+      home: PositionAnimated(),
     );
   }
 }
