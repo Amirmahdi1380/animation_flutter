@@ -1,3 +1,4 @@
+import 'package:animated/container_animated.dart';
 import 'package:animated/opacity_animation.dart';
 import 'package:animated/position_animated.dart';
 import 'package:animated/raotate_animation.dart';
@@ -14,7 +15,7 @@ class MainScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: ScaleAnimation(),
+      home: AnimationList(),
     );
   }
 }
