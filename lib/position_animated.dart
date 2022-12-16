@@ -28,9 +28,14 @@ class _PositionAnimatedState extends State<PositionAnimated> {
                 });
               },
               child: Container(
+                decoration: const BoxDecoration(
+                  color: Colors.black,
+                  borderRadius: BorderRadius.all(
+                    Radius.circular(90),
+                  ),
+                ),
                 height: 100,
                 width: 100,
-                color: Colors.black,
               ),
             ),
           )
