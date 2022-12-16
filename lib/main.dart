@@ -3,6 +3,7 @@ import 'package:animated/opacity_animation.dart';
 import 'package:animated/position_animated.dart';
 import 'package:animated/raotate_animation.dart';
 import 'package:animated/scale_animation.dart';
+import 'package:animated/switch_container.dart';
 import 'package:animated/text_animation.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +17,7 @@ class MainScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: TextAnimation(),
+      home: SwitchContainer(),
     );
   }
 }
